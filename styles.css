@@ -9,6 +9,7 @@
 body {
     font-family: "DM Sans", sans-serif;
     color: rgb(13, 13, 13);
+    margin: 0px;
 }
 
 h2 {
@@ -120,4 +121,20 @@ hr {
 
 .ow {
     background-color: var(--light-grey);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer a {
+    color: wheat;
 }

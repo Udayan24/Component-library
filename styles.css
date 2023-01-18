@@ -1,5 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
 
+:root {
+    --primary-color: #991b1b;
+}
+
 body {
     font-family: "Courier Prime", monospace;
+    color: rgb(13, 13, 13);
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    text-underline-offset: 0.5rem;
+}
+
+hr {
+    height: 0.05rem;
+    border: 0rem;
+    background-color: #954848;
+    margin: 2rem 0rem;
+}
+
+/* Container */
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container-center {
+    max-width: 800px;
+    margin:auto;
+}
+
+/* Links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    border-radius: 0.3rem;
+    background-color: var(--primary-color);
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+}
+
+.secondary-link {
+    border-radius: 0.3rem;
+    border: 1px solid;
+    color:#000000
+}
+
+/* Lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color:wheat;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+    color: wheat;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .link-active {
+    font-weight: bold;
 }
